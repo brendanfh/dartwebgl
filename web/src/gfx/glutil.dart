@@ -13,7 +13,7 @@ abstract class GShader {
         gl.compileShader(shader);
 
         if(gl.getShaderParameter(shader, GL.COMPILE_STATUS) == null) {
-            throw gl.getShaderInfoLog(shader);
+            print(gl.getShaderInfoLog(shader));
         }
     }
 }
@@ -43,7 +43,7 @@ class Program {
         gl.linkProgram(prog);
 
         if(gl.getProgramParameter(prog, GL.LINK_STATUS) == null) {
-            throw gl.getProgramInfoLog(prog);
+            print(gl.getProgramInfoLog(prog));
         }
     }
 }
@@ -116,6 +116,7 @@ abstract class Shader {
         var uniform = uniforms[uniName];
         if(uniform == null) return false;
         uniform.passFunc(gl, uniform.uniform, value);
+        return true;
     }
 }
 

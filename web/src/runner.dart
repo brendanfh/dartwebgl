@@ -46,7 +46,6 @@ class Runner {
             uniform vec4 u_color;
 
             void main() {
-                vec4 tcol = sampler2D
                 vec4 col = vec4(v_color, 1.0) * u_color;
                 if(col.a > 0.0) {
                     gl_FragColor = col;
@@ -56,9 +55,9 @@ class Runner {
             }
         """));
         Display.getShader("texture")..send(Display.gl, "u_viewMat", makeOrthographicMatrix(0, 854, 480, 0, 0.1, 100.0))
-                                 ..send(Display.gl, "u_worldMat", new Matrix4.translationValues(0.0, 0.0, -1.0))
-                                 ..send(Display.gl, "u_objMat", new Matrix4.identity().scale(200.0, 200.0, 1.0))
-                                 ..send(Display.gl, "u_color", new Vector4(1.0, 0.0, 0.0, 1.0));
+                                    ..send(Display.gl, "u_worldMat", new Matrix4.translationValues(0.0, 0.0, -1.0))
+                                    ..send(Display.gl, "u_objMat", new Matrix4.identity().scale(200.0, 200.0, 1.0))
+                                    ..send(Display.gl, "u_color", new Vector4(1.0, 1.0, 1.0, 1.0));
     }
 
     void setState(GameState gs) {

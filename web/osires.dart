@@ -12,6 +12,7 @@ part "src/runner.dart";
 part "src/gfx/glutil.dart";
 part "src/gfx/shaders.dart";
 part "src/gfx/display.dart";
+part "src/gfx/texture.dart";
 
 part "src/states/basestate.dart";
 part "src/states/teststate.dart";
@@ -24,8 +25,14 @@ void main() {
     CanvasElement canvas = querySelector("#game");
     sizeCanvas(canvas);
     GL.RenderingContext gl = canvas.getContext("webgl");
+    print(gl);
     if (gl == null) {
-        noWebGL(canvas);
+        gl = canvas.getContext("experimental-webgl");
+        if(gl == null) {
+            noWebGL(canvas);
+        } else {
+            start(canvas, gl);
+        }
     } else {
         start(canvas, gl);
     }
