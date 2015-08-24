@@ -1,0 +1,7 @@
+{
+  "name": "Osires",
+  "start_url": "build/web/osires.html",
+  "orientation": "landscape",
+  "icon": "build/web/res/app-icon.png",
+  "display": "fullscreen"
+}

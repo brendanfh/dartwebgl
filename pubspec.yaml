@@ -1,0 +1,5 @@
+name: Osires
+description: a game in dart for android
+dependencies:
+  browser: any
+  vector_math: any
