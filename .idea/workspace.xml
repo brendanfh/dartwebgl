@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a7f39f0-b18a-4f7f-823e-e173265d1baf" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Brendan\dev\xwalk\dartwebgl\.idea\Osires.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Brendan\dev\xwalk\dartwebgl\.idea\inspectionProfiles\Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Brendan\dev\xwalk\dartwebgl\.idea\inspectionProfiles\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Brendan\dev\xwalk\dartwebgl\.idea\uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Brendan\dev\xwalk\dartwebgl\packages\browser" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Brendan\dev\xwalk\dartwebgl\packages\three" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Brendan\dev\xwalk\dartwebgl\packages\vector_math" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Brendan\dev\xwalk\dartwebgl\web\packages" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Brendan\dev\xwalk\dartwebgl\web\res\packages" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/gfx/glutil.dart" afterPath="$PROJECT_DIR$/web/src/gfx/glutil.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/osires.dart" afterPath="$PROJECT_DIR$/web/osires.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pubspec.lock" afterPath="$PROJECT_DIR$/pubspec.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/runner.dart" afterPath="$PROJECT_DIR$/web/src/runner.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.pub/bin/sdk-version" afterPath="$PROJECT_DIR$/.pub/bin/sdk-version" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/util/canvas_sizing.dart" afterPath="$PROJECT_DIR$/web/src/util/canvas_sizing.dart" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/states/teststate.dart" afterPath="$PROJECT_DIR$/web/src/states/teststate.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dartwebgl.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/web/src/gfx/display.dart">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -69,7 +49,17 @@
         <entry file="file://$PROJECT_DIR$/web/osires.dart">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="canvas_sizing.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/util/canvas_sizing.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -89,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/web/src/states/teststate.dart">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -109,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/web/src/sprite/sprite.dart">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+              <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -118,8 +108,8 @@
       <file leaf-file-name="shaders.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/src/gfx/shaders.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.98940676">
-              <caret line="58" column="61" selection-start-line="58" selection-start-column="61" selection-end-line="58" selection-end-column="61" />
+            <state vertical-scroll-proportion="0.6443515">
+              <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -128,8 +118,8 @@
       <file leaf-file-name="osires.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/osires.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            <state vertical-scroll-proportion="-11.769231">
+              <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -158,10 +148,11 @@
       <list>
         <option value="$PROJECT_DIR$/web/osires.dart" />
         <option value="$PROJECT_DIR$/web/src/gfx/texture.dart" />
-        <option value="$PROJECT_DIR$/web/src/states/teststate.dart" />
         <option value="$PROJECT_DIR$/web/src/gfx/glutil.dart" />
         <option value="$PROJECT_DIR$/web/src/gfx/display.dart" />
         <option value="$PROJECT_DIR$/web/src/runner.dart" />
+        <option value="$PROJECT_DIR$/web/src/util/canvas_sizing.dart" />
+        <option value="$PROJECT_DIR$/web/src/states/teststate.dart" />
       </list>
     </option>
   </component>
@@ -246,6 +237,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dartwebgl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dartwebgl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -544,16 +557,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Pub Serve" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Dart Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23264782" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -564,7 +578,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Pub Serve" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -664,50 +677,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/osires.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/sprite/sprite.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/states/teststate.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/runner.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/gfx/display.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/osires.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
           <folding />
         </state>
       </provider>
@@ -720,10 +693,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/osires.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/util/canvas_sizing.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/osires.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/gfx/display.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/runner.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/states/teststate.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/osires.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.769231">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/gfx/shaders.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.98940676">
-          <caret line="58" column="61" selection-start-line="58" selection-start-column="61" selection-end-line="58" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.6443515">
+          <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
           <folding />
         </state>
       </provider>

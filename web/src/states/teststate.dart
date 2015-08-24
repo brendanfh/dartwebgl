@@ -25,7 +25,7 @@ class TestState extends GameState {
     }
 
     void render(GL.RenderingContext gl) {
-        gl.clearColor(0.0, 0.0, 0.0, 1.0);
+        gl.clearColor(1.0, 0.0, 0.0, 1.0);
         gl.clear(GL.COLOR_BUFFER_BIT);
 
         Display.getShader("texture").send(Display.gl, "u_objMat", new Matrix4.translationValues(cos(t) * 200 + 100, sin(t) * 200 + 100, 0.0).scale(200.0, 200.0, 1.0));
