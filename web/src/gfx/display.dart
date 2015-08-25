@@ -9,6 +9,7 @@ class Display {
 
     static void init(GL.RenderingContext _gl) {
         gl = _gl;
+        gl.enable(GL.DEPTH_TEST);
 
         _shaders = new Map<String, Shader>();
     }

@@ -17,15 +17,12 @@ part "src/gfx/texture.dart";
 part "src/states/basestate.dart";
 part "src/states/teststate.dart";
 
-part "src/sprite/sprite.dart";
-
 part "src/util/canvas_sizing.dart";
 
 void main() {
     CanvasElement canvas = querySelector("#game");
     sizeCanvas(canvas);
     GL.RenderingContext gl = canvas.getContext("webgl");
-    print(gl);
     if (gl == null) {
         gl = canvas.getContext("experimental-webgl");
         if(gl == null) {

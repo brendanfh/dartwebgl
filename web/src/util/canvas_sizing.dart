@@ -3,7 +3,7 @@ part of OSIRES;
 void sizeCanvas(CanvasElement canvas) {
     bool mobile = context.callMethod("isMobile");
 
-    if(mobile || true) {
+    if(mobile) {
         canvas.width = window.innerWidth;
         canvas.height = window.innerHeight;
         canvas.setAttribute("style", """
